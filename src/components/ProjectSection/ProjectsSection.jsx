@@ -5,7 +5,7 @@ import ProjectCard from "./ProductCard";
 
  
 const ProjectsSection = () => (
-  <section id="projects" className="pt-24 px-6 md:px-6">
+  <section id="projects" className="pt-24   md:px-6">
     <h2 className="text-center text-5xl mb-[20px]">
       <span className="bg-gradient-to-r from-[#ff7b7b] to-[#7b77ff] bg-clip-text text-transparent">
         My Projects

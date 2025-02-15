@@ -66,9 +66,9 @@ function Header({ scrollToSection, currentSection }) {
       </header>
 
       {/* Mobile Header */}
-      <header className="fixed top-0 left-0 right-0 z-40 bg-[rgba(34,34,54,0.35)] backdrop-blur-lg p-4 flex justify-between items-center md:hidden">
-        <div className="text-white font-bold text-xl">Portfolio</div>
-        <button onClick={toggleSidebar} className="text-white text-3xl z-50">
+      <header className="fixed top-0 left-0 right-0 z-40 bg-[rgba(34,34,54,0.35)] backdrop-blur-lg p-4  flex justify-between items-center md:hidden">
+        <div className="text-white font-bold text-xl pl-2">Portfolio</div>
+        <button onClick={toggleSidebar} className="text-white text-3xl z-50 pr-2">
         <GiHamburgerMenu />
         </button>
       </header>

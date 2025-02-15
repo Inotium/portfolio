@@ -39,7 +39,7 @@ const TimelineItem = ({  experienceData }) => {
   return (
     <div
       ref={itemRef}
-      className={`relative p-5  rounded-[12px] shadow-[0_8px_16px_rgba(0,0,0,0.2)] flex flex-col md:flex-row md:items-center
+      className={`relative p-5 p rounded-[12px] shadow-[0_8px_16px_rgba(0,0,0,0.2)] flex flex-col md:flex-row md:items-center
         ${
           isVisible
             ? "opacity-100 translate-y-0"
