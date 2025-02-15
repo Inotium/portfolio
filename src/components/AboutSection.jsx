@@ -7,7 +7,7 @@ const AboutSection = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [typingSpeed, setTypingSpeed] = useState(300 - Math.random() * 100);
   const [showCursor, setShowCursor] = useState(true);
-  const textOptions = ["Antonios", "Web Developer", "Mobile Developer"];
+  const textOptions = ["Web Developer", "Mobile Developer"];
   const displayDuration = 2000;
 
   useEffect(() => {
@@ -60,7 +60,7 @@ const AboutSection = () => {
     >
       <div className="flex flex-col lg:flex-row items-center justify-center max-w-6xl mx-auto space-y-4 md:space-y-0 md:space-x-8">
         <div className="flex-1 text-left pl-4 lg:pl-6">
-          <h1 className="text-4xl md:text-5xl font-bold">Hello 👋 I'm</h1>
+          <h1 className="text-4xl md:text-5xl font-bold pb-2">Hello 👋 I'm Antonios Kalogeropoulos</h1>
           <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text text-transparent">
             {text}
             <span

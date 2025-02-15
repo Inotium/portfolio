@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 
 const SocialLinks = () => {
   const downloadCv = () => {
-    const pdfUrl = "/CV.pdf";
+    const pdfUrl = "/portfolio/CV.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "CV Kalogeropoulos Antonios.pdf";

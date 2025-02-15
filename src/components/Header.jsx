@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function Header({ scrollToSection, currentSection }) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -68,7 +69,7 @@ function Header({ scrollToSection, currentSection }) {
       <header className="fixed top-0 left-0 right-0 z-40 bg-[rgba(34,34,54,0.35)] backdrop-blur-lg p-4 flex justify-between items-center md:hidden">
         <div className="text-white font-bold text-xl">Portfolio</div>
         <button onClick={toggleSidebar} className="text-white text-3xl z-50">
-          ☰
+        <GiHamburgerMenu />
         </button>
       </header>
       <div
