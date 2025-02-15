@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Flutter Pokedex",
       "description": "A Pokédex App built with Flutter that lets users explore Pokémon from different generations. The app fetches detailed Pokémon data from the PokéAPI, including images, stats, abilities, evolution chains, and more.",
-      "image": "pokedex.png",
+      "image": "/portfolio/pokedex.png",
       "github": "https://github.com/Inotium/flutter-pokedex-app",
       "liveDemo": ""
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "title": "React Media Search",
       "description": "This is my very first React project, which helped me land my first job in the industry. It was my first introduction to React and libraries like Material UI. Despite its rough look, it holds sentimental value and was a key step in my journey.",
-      "image": "movie-finder.png",
+      "image": "/portfolio/movie-finder.png",
       "github": "https://github.com/Inotium/movie-finder",
       "liveDemo": "https://inotium.github.io/movie-finder/"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "title": "Portfolio",
       "description": "This is a personal portfolio built with React and styled using Tailwind CSS. It showcases my projects, skills, and experience, providing an interactive and responsive design for an engaging user experience.",
-      "image": "portfolio-screenshot.png",
+      "image": "/portfolio/portfolio-screenshot.png",
       "github": "https://github.com/Inotium/portfolio",
       "liveDemo": ""
     }
@@ -35,18 +35,18 @@
     }
     ],
       "skills": [
-        { "id": 1, "image": "react.png" },
-        { "id": 2, "image": "tailwind.png" },
-        { "id": 3, "image": "html.png" },
-        { "id": 4, "image": "flutter.png" },
-        { "id": 5, "image": "django.png" },
-        { "id": 6, "image": "python.png" },
-        { "id": 7, "image": "cpp.png" },
-        { "id": 8, "image": "android.png" },
-        { "id": 9, "image": "xcode.png" },
-        { "id": 10, "image": "blender.png" },
-        { "id": 11, "image": "UE.png" },
-        { "id": 12, "image": "redux.png" }
+        { "id": 1, "image": "/portfolio/react.png" },
+        { "id": 2, "image": "/portfolio/tailwind.png" },
+        { "id": 3, "image": "/portfolio/html.png" },
+        { "id": 4, "image": "/portfolio/flutter.png" },
+        { "id": 5, "image": "/portfolio/django.png" },
+        { "id": 6, "image": "/portfolio/python.png" },
+        { "id": 7, "image": "/portfolio/cpp.png" },
+        { "id": 8, "image": "/portfolio/android.png" },
+        { "id": 9, "image": "/portfolio/xcode.png" },
+        { "id": 10, "image": "/portfolio/blender.png" },
+        { "id": 11, "image": "/portfolio/UE.png" },
+        { "id": 12, "image": "/portfolio/redux.png" }
       ]
  
   }

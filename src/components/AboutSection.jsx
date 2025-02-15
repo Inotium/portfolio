@@ -81,7 +81,7 @@ const AboutSection = () => {
           <SocialLinks />
         </div>
         <div className="flex justify-center p-6 md:w-[300px] w-full">
-          <img src="programer.svg" alt="profile" className="lg:block hidden" />
+          <img src="/portfolio/programer.svg" alt="profile" className="lg:block hidden" />
         </div>
       </div>
     </section>
