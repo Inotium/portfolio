@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fadeInSlide {
+  animation: fadeInSlide 0.5s forwards;
+}
+
+@media screen and (max-width: 900px) {
+  .profile-img {
+    display: none;
+  }
+}
