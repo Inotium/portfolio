@@ -23,6 +23,14 @@
       "image": "/portfolio/portfolio-screenshot.png",
       "github": "https://github.com/Inotium/portfolio",
       "liveDemo": ""
+    },
+    {
+      "id": 4,
+      "title": "Github Dashboard",
+      "description": "A dashboard for github using React to search for github users , view respositories and followers.",
+      "image": "/portfolio/github-dashboard.png",
+      "github": "https://github.com/Inotium/github-dashboard",
+      "liveDemo": "https://inotium.github.io/github-dashboard/"
     }
   ],
   "experience": [

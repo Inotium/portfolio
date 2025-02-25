@@ -55,7 +55,7 @@ const ProjectCard = ({ projectData }) => {
           <img
             src={projectData.image}
             alt={projectData.title}
-            className="w-full h-full object-cover bg-center"
+            className=" w-full md:w-64 h-full object-cover bg-center"
           />
         </div>
       )}
