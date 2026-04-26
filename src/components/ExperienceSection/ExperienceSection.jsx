@@ -9,11 +9,11 @@ const ExperienceSection = () => (
         My Experience
       </span>
     </h2>
-    <div className="relative w-full max-w-6xl mx-auto flex flex-col px-6">
-      {data.experience.map((experience) => (
-        <TimelineItem key={experience.id} experienceData={experience} />
-      ))}
-    </div>
+    <div className="relative w-full max-w-6xl mx-auto flex flex-col px-6 space-y-8">
+  {[...data.experience].reverse().map((experience) => (
+    <TimelineItem key={experience.id} experienceData={experience} />
+  ))}
+</div>
   </section>
 );
 
